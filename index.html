@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <!-- Swiper -->
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="testimonial">
+                        <img src="/assets/right-quote.svg" class="quote" alt="">
+                        <div class="content">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur tempora quae
+                                reiciendis asperiores commodi natus temporibus dolor architecto, qui explicabo sit cum,
+                                nesciunt perferendis officiis ab provident! Voluptas, eum eligendi.</p>
+                                <div class="details">
+                                    <div class="imgBx">
+                                        <img src="/assets/IMG_9621.jpg" alt="">
+                                    </div>
+                                    <h3>Someone Famous<br><span>Creative Designer</span></h3>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial">
+                        <img src="/assets/right-quote.svg" class="quote" alt="">
+                        <div class="content">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur tempora quae
+                                reiciendis asperiores commodi natus temporibus dolor architecto, qui explicabo sit cum,
+                                nesciunt perferendis officiis ab provident! Voluptas, eum eligendi.</p>
+                                <div class="details">
+                                    <div class="imgBx">
+                                        <img src="/assets/IMG_9621.jpg" alt="">
+                                    </div>
+                                    <h3>Someone Famous<br><span>Creative Designer</span></h3>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial">
+                        <img src="/assets/right-quote.svg" class="quote" alt="">
+                        <div class="content">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur tempora quae
+                                reiciendis asperiores commodi natus temporibus dolor architecto, qui explicabo sit cum,
+                                nesciunt perferendis officiis ab provident! Voluptas, eum eligendi.</p>
+                                <div class="details">
+                                    <div class="imgBx">
+                                        <img src="/assets/IMG_9621.jpg" alt="">
+                                    </div>
+                                    <h3>Someone Famous<br><span>Creative Designer</span></h3>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 1,
+                depth: 100,
+                modifier: 2,
+                slideShadows: false,
+            },
+            loop:true
+        });
+    </script>
+</body>
+
+</html>
